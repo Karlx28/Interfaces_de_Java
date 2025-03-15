@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package interfaces;
+package Interfaz_Vehiculo;
 
 /**
  *
  * @author kxrmm
  */
-public interface Animal {
-    void hacerunSonido();
-    void movimiento();
+public interface Vehiculo {
+    void arrancar();
+    void detener();
 }
